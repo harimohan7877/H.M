@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socials - Harimohan Sharma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html" class="logo-link"><h1>Harimohan Sharma</h1></a>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="social.html" class="active">Socials</a></li> <!-- Active class is now here -->
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger-button" aria-label="Menu">
+                <span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span>
+            </button>
+        </header>
+        <nav class="mobile-nav" id="mobile-menu">
+            <a href="index.html">Home</a><a href="about.html">About Me</a><a href="social.html">Socials</a><a href="contact.html">Contact</a>
+        </nav>
+        <main class="about-layout">
+            <aside id="social-sidebar"></aside>
+            <section id="social-content"></section>
+        </main>
+        <footer>
+            <p>Connecting ideas and people. &copy; 2025</p>
+        </footer>
+    </div>
+    <script src="social.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

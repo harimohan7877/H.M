@@ -1,0 +1,12 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburgerButton = document.getElementById('hamburger-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    if (hamburgerButton && mobileMenu) {
+        hamburgerButton.addEventListener('click', () => {
+            // Toggle active classes
+            hamburgerButton.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+        });
+    }
+});

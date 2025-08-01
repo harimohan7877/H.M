@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Harimohan Sharma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html" class="logo-link"><h1>Harimohan Sharma</h1></a>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About Me</a></li> <!-- Active class is now here -->
+                    <li><a href="social.html">Socials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger-button" aria-label="Menu">
+                <span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span>
+            </button>
+        </header>
+        <nav class="mobile-nav" id="mobile-menu">
+            <a href="index.html">Home</a><a href="about.html">About Me</a><a href="social.html">Socials</a><a href="contact.html">Contact</a>
+        </nav>
+        <main class="about-layout" id="about-container">
+            <aside id="about-sidebar"></aside>
+            <section id="about-content"></section>
+        </main>
+        <footer>
+            <p>Exploring the intersection of curiosity and code. &copy; 2025</p>
+        </footer>
+    </div>
+    <script src="about.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
